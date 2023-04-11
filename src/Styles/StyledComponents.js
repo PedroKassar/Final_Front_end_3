@@ -11,6 +11,7 @@ export const BodyPage = styled.div`
 export const HeaderStyle = styled.header`
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     border-bottom: 2px solid #903fa1;
 `
 export const UlHeader = styled.ul`
@@ -22,6 +23,7 @@ export const UlHeader = styled.ul`
 export const LiHeader = styled.li`
     display: flex;
     cursor: pointer;
+    align-items: center;
     &:focus,
     &:hover{
         color: #903fa1;
@@ -30,7 +32,9 @@ export const LiHeader = styled.li`
 export const ImgHeader = styled.img`
     width: 80px;
     height: 50%;
-    padding-top: 15px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
 `
 export const GlobalCardDiv = styled.div`
     display: grid;
@@ -107,10 +111,14 @@ export const FooterBody = styled.div`
     display: flex;
     justify-content: space-around;
     border-top: 1px solid violet;
+    padding: 5px;
 `
 
 export const PgImg = styled.img`
     width: 300px;
+    background-color: white;
+    border-radius: 5px;
+
 `
 export const ImgFooterDiv = styled.div`
     display: flex;
@@ -121,6 +129,9 @@ export const ImgRedes = styled.img`
     height: 40px;
     display: flex;
     align-self: center;
+    background-color: rgb(58, 58, 58);
+    padding: 5px;
+    border-radius: 5px;
 `
 export const LoginBody = styled.div`
     background-image: url("public/images/backgroundLogin.jpg");
