@@ -87,7 +87,8 @@ export const DetailsDiv = styled.div`
     margin: auto;
 `
 export const EachDetail = styled.div`
-    border: 1px solid black;
+    border: 4px double black;
+    padding: 10px;
 `
 export const FormContainer = styled.div`
     height: 100vh;
